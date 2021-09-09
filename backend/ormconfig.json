@@ -1,0 +1,19 @@
+[{
+	"name": "default",
+	"type": "postgres",
+	"host": "localhost",
+	"port": 5432,
+	"username": "postgres",
+	"password": "drwho@2021",
+	"synchronize": "true",
+	"database": "postgres",
+	"entities": [
+		"./src/modelos/*.ts"
+	],
+	"migrations": [
+		"./src/database/migrations/*.ts"
+	],
+	"cli": {
+		"migrationsDir": "./src/database/migrations"
+	}
+}]

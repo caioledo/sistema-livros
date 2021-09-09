@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "dom.iterable"
+    ],
+
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+
+    "paths": {
+      "@config/*": ["config/*"]
+    },
+    
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": [
+    "src/**/*.ts"
+  ]
+}

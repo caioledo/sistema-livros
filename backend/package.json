@@ -1,0 +1,62 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "main": "server.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^6.12.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.23",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "bcryptjs": "^2.4.3",
+    "class-transformer": "^0.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "pg": "^8.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "ts-node": "^9.1.1",
+    "typeorm": "^0.2.37",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/server.ts",
+    "start": "ts-node src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/multer": "^1.4.7",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
