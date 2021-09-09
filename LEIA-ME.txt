@@ -1,0 +1,3 @@
+Programa feito com Node.js e PostgreSQL. Recomendável baixar ambos para fazê-lo funcionar.
+As pastas backend e frontend são ambientes de software diferentes, o backend sendo o servidor e o frontend sendo a interface web. Ambos devem estar rodando no node
+ao mesmo tempo.
